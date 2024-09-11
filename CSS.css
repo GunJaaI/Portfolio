@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'disket_monoregular';
-    src: url('fonts/Disket-Mono-Regular.ttf') format('truetype');
-    src: url('fonts/Disket-Mono-Regular.otf') format('otf') ,
-        url('fonts/disket-mono-regular-webfont.woff2') format('woff2'),
-        url('fonts/disket-mono-regular-webfont.woff') format('woff');
+    src: url('fonts/Disket-Mono-Regular.ttf') format('truetype'),
+         url('fonts/Disket-Mono-Regular.otf') format('otf'),
+         url('fonts/disket-mono-regular-webfont.woff2') format('woff2'),
+         url('fonts/disket-mono-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -19,21 +19,13 @@
     /* font-family: 'Chakra Petch', sans-serif; */
 }
 
-/* @font-face {
-    font-family: 'disket-mono';
-    src: url('/fonts/Disket-Mono-Regular.ttf') format('truetype');
-    src: url('/fonts/Disket-Mono-Regular.otf') format('otf');
-} */
-
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    /* background-color: black; */
+    background-color: black;
     background-image: url('img/Background.jpg');
-    /* content: url('/img/Profile_pic.jpg'); */
-    /* font-family: 'disket-mono', monospace; */
 }
 
 hr {
