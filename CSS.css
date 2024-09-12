@@ -502,42 +502,14 @@ fieldset {
 }
 
 .footer_Left {
-    /* grid-column: 1; */
     text-align: left;
-
-    /* display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    flex-direction: row; */
-
     margin-left: 5%;
 }
 
 #footer_Name {
     font-size: 120%;
-    font-weight: bold;
+    font-weight: bold; 
 }
-
-/* .footer_Center {
-    grid-column: 2;
-    text-align: center;
-    padding: 1%;
-} */
-  
-/* .footer_Right {
-    grid-column: 2;
-    text-align: center;
-
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    flex-wrap: nowrap;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-    position: relative;
-
-    margin-right: 5%;
-} */
 
 /* Reference setting */
 a{
@@ -547,7 +519,7 @@ a{
 
 a:hover{
     text-decoration: underline;
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
 }
 
 /* Responsive */
