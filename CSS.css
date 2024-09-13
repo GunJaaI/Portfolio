@@ -100,22 +100,6 @@ header {
     margin-right: 5%;
 }
 
-/* .button {
-    width: 50%;
-    border: none;
-    cursor: pointer;
-    appearance: none;
-    background-color: inherit;
-
-    transition: transform 0.4s ease-in-out;
-}
-
-.button:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    border-radius: 12px;
-} */
-
 .button_header {
     font-size: 100%;
     border: none;
@@ -131,20 +115,10 @@ header {
 .button_header:hover {
     transform: translateY(-1px);
     font-weight: bold;
-    /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
     border-radius: 6px;
 }
 
-.header_button_img {
-    width: 100%;
-    border-radius: 12px;
-}
-
 /* Profile */
-
-#section {
-    /* margin-bottom: 5%; */
-}
 
 fieldset {
     display: block;
@@ -168,9 +142,6 @@ fieldset {
     font-weight: bold;
     text-align: left;
     padding: 7px 3% 7px 3%;
-    /* position: absolute;
-    transform: translateY(-83px);
-    background-color: rgb(44, 42, 42); */
 
 }
 
@@ -213,12 +184,6 @@ fieldset {
     text-align: left;
 
     line-height: 2;
-
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column; */
 }
 
 #img_Profile_pic {
@@ -228,10 +193,6 @@ fieldset {
 }
 
 #div_Skill {
-    /* display: flex;
-    align-items: center;
-    justify-content: space-around; */
-
     display: flex;
     padding: 32px;
     align-self: center;
@@ -239,7 +200,6 @@ fieldset {
     justify-content: center;
     justify-content: space-around;
     background: hsla(0, 0%, 100%, 0.1);
-    /* box-shadow: 0 8px 32px 0 rgba(166, 174, 186, 0.37); */
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
     border-radius: 20px;
@@ -250,49 +210,14 @@ fieldset {
     width: 5%;
     min-width: 80px;
     margin: 5px;
-    /* background-color: rgb(255, 255, 255); */
     border-radius: 12px;
 }
-
-#fieldset_Hobbies {
-    margin: 3% 0%;
-}
-
-/* #fieldset_Hobbies:hover {
-    transform: translateY(-2px);
-
-} */
 
 #div_Hobbies {
     font-size: 120%;
 
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-
-    line-height: 1.5;
-}
-
-#fieldset_Skill_project {
-    margin: 3% 0% 3% 0%;
-}
-
-#fieldset_Skill_project:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.20), 0 17px 50px 0 rgba(255, 255, 255, 0.20);
-}
-
-#legend_Skill_project {
-    font-size: 200%;
-    font-weight: bold;
-    padding: 0% 3% 0% 3%;
-    
-}
-
-#div_Skill_project {
-    font-size: 150%;
-
-    display: grid;
-    grid-template-columns: auto auto;
 
     line-height: 1.5;
 }
@@ -524,208 +449,309 @@ a:hover{
 
 /* Responsive */
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 1350px){
     .header {
-        font-size: 125%;
+        font-size: 100%;
     }
 
-    .button {
-        width: 75%;
+    .header_Right {
+        font-size: 95%;
+        margin-right: 10%;
+    }
+
+    .button_header {
+        font-size: 95%;
+        padding: 8px 16px;
     }
 
     .About_Me {
+        grid-template-columns: 50% 50%;
         font-size: 100%;
     }
 
     #img_Profile_pic {
-        width: 75%;
+        width: 90%;
+    }
+
+    .About_Me_Right {
+        padding: 25px 25px 25px 25px;
+        font-size: 90%;
+    }
+
+    #div_Skill {
+        padding: 16px;
+        border-radius: 20px;
+    }
+    
+    .img_Skill {
+        width: 5%;
+        min-width: 70px;
+        margin: 5px;
         border-radius: 12px;
-        border: 10px solid rgb(255, 255, 255);
     }
 
-    #section_About_Me {
-        margin-bottom: 12%;
-    }
-    
-    #section_Skill {
-        margin-bottom: 7%;
-    }
-    
-    #section_Contact {
-        margin-bottom: 10%;
-    }
-
-    #legend_About_ME {
-        font-size: 200%;
-        font-weight: bold;
-        text-align: left;
-        padding: 0% 2% 0% 2%;
-    }
-
-    #legend_Skill {
-        font-size: 200%;
-        font-weight: bold;
-        text-align: right;
-        padding: 0% 2% 0% 2%;
-        
-    }
-
-    #legend_Skill_ass {
-        font-size: 150%;
-        font-weight: bold;
-        padding: 0% 2% 0% 2%;
-        
-    }
-
-    #div_Skill_ass {
-        font-size: 100%;
-    }
-
-    #legend_Skill_project {
-        font-size: 150%;
-        font-weight: bold;
-        padding: 0% 2% 0% 2%;
-        
-    }
-
-    #div_Skill_project {
-        font-size: 100%;
-    }
-
-    #legend_Contact {
-        font-size: 200%;
-        font-weight: bold;
-        text-align: left;
-        padding: 0% 2% 0% 2%;
-    }
-
-    #legend_My_project {
-        font-size: 200%;
-        font-weight: bold;
-        text-align: left;
-        padding: 0% 2% 0% 2%;
-    }
-
-    #legend_My_project_ProjectI {
-        font-size: 150%;
-        font-weight: bold;
-        padding: 0% 2% 0% 2%;
-    }
-
-    #div_My_project_ProjectI {
-        display: grid;
-        grid-template-columns: 40% 60%;
-        align-items: center;
-    
+    #div_Hobbies {
         font-size: 90%;
-    }
-
-    #img_ProjectI_pic {
-        width: 85%;
-        border-radius: 8px;
-        border: 5px solid rgb(255, 255, 255);
-    }
-
-    .img_ProjectI_GP_pic {
-        width: 27%;
-        border-radius: 8px;
-        border: 5px solid rgb(255, 255, 255);
-    }
-
-    #legend_My_project_Drive_Dripper {
-        font-size: 150%;
-        font-weight: bold;
-        padding: 0% 2% 0% 2%;
-    }
-
-    #div_My_project_Drive_Dripper {
-        display: grid;
-        grid-template-columns: 40% 60%;
-        align-items: center;
-    
-        font-size: 90%;
-    }
-
-    #img_DriveDripper_pic {
-        width: 85%;
-        border-radius: 8px;
-        border: 5px solid rgb(255, 255, 255);
+        grid-template-columns: 25% 25% 25% 25%;
     }
     
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 1200px){
     .header {
-        font-size: 85%;
+        font-size: 90%;
     }
 
-    .button {
-        width: 100%;
+    .header_Right {
+        font-size: 85%;
+        margin-right: 10%;
     }
+
+    .button_header {
+        font-size: 85%;
+        padding: 8px 8px;
+    }
+
 
     .About_Me {
-        font-size: 75%;
+        grid-template-columns: 50% 50%;
+        font-size: 100%;
     }
 
     #img_Profile_pic {
-        width: 85%;
-        border-radius: 8px;
+        width: 90%;
+        border-radius: 26px;
+        border: 7px solid rgb(255, 255, 255);
+    }
+
+    .About_Me_Right {
+        padding: 25px 25px 25px 25px;
+        font-size: 85%;
+    }
+
+    .button_header {
+        padding: 8px 8px;
+    }
+
+    fieldset {
+        border-radius: 10px;
+        border: 4px dashed rgb(255, 255, 255);
+        font-size: 100%;
+    }
+    
+    #legend_left {
+        font-size: 150%;
+        font-weight: bold;
+        padding: 5px 3% 5px 3%;
+    
+    }
+    
+    #legend_center {
+        font-size: 150%;    
+        font-weight: bold;
+        padding: 5px 3% 5px 3%;
+        
+    }
+    
+    #legend_right {
+        font-size: 150%;
+        font-weight: bold;
+        padding: 5px 3% 5px 3%;
+        
+    }
+
+    #div_Skill {
+        padding: 16px;
+        border-radius: 20px;
+        display: block;
+        unicode-bidi: isolate;
+    }
+    
+    .img_Skill {
+        width: 5%;
+        min-width: 70px;
+        margin: 5px;
+        border-radius: 12px;
+    }
+
+    #div_Hobbies {
+        font-size: 80%;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    
+}
+
+@media only screen and (max-width: 1050px){
+    #div_Skill {
+        padding: 14px;
+        border-radius: 14px;
+        display: block;
+        unicode-bidi: isolate;
+    }
+
+    .img_Skill {
+        width: 5%;
+        min-width: 60px;
+        margin: 5px;
+        border-radius: 12px;
+    }
+    
+}
+
+@media only screen and (max-width: 850px){
+    .header {
+        font-size: 80%;
+    }
+
+    .header_Right {
+        font-size: 75%;
+        margin-right: 10%;
+    }
+
+    .button_header {
+        font-size: 75%;
+        padding: 4px 4px;
+    }
+
+
+    .About_Me {
+        grid-template-columns: 50% 50%;
+        font-size: 100%;
+    }
+
+    #img_Profile_pic {
+        width: 90%;
+        border-radius: 26px;
+        border: 7px solid rgb(255, 255, 255);
+    }
+
+    .About_Me_Right {
+        padding: 25px 25px 25px 25px;
+        font-size: 75%;
+    }
+
+    .button_header {
+        padding: 4px 4px;
+    }
+
+    fieldset {
+        border-radius: 10px;
+        border: 3px dashed rgb(255, 255, 255);
+        font-size: 100%;
+    }
+    
+    #legend_left {
+        font-size: 120%;
+        font-weight: bold;
+        padding: 5px 3% 5px 3%;
+    
+    }
+    
+    #legend_center {
+        font-size: 120%;    
+        font-weight: bold;
+        padding: 5px 3% 5px 3%;
+        
+    }
+    
+    #legend_right {
+        font-size: 120%;
+        font-weight: bold;
+        padding: 5px 3% 5px 3%;
+        
+    }
+
+    #div_Hobbies {
+        font-size: 75%;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    
+}
+
+@media only screen and (max-width: 800px){
+    #div_Skill {
+        padding: 10px;
+        border-radius: 10px;
+        display: block;
+        unicode-bidi: isolate;
+    }
+
+    .img_Skill {
+        width: 5%;
+        min-width: 45px;
+        margin: 5px;
+        border-radius: 12px;
+    }
+    
+}
+
+@media only screen and (max-width: 750px){
+    .header {
+        font-size: 65%;
+    }
+
+    .header_Right {
+        font-size: 65%;
+        margin-right: 10%;
+    }
+
+    .button_header {
+        font-size: 65%;
+    }
+
+
+    .About_Me {
+        display: flex;
+        flex-direction: column;
+        font-size: 100%;
+    }
+
+    #img_Profile_pic {
+        width: 80%;
+        border-radius: 26px;
         border: 5px solid rgb(255, 255, 255);
     }
 
-    #section_About_Me {
-        margin-bottom: 3%;
+    .About_Me_Right {
+        padding: 25px 25px 25px 25px;
+        font-size: 70%;
+    }
+
+    fieldset {
+        border-radius: 10px;
+        border: 2px dashed rgb(255, 255, 255);
+        font-size: 100%;
     }
     
-    #section_Skill {
-        margin-bottom: 3%;
+    #legend_left {
+        font-size: 100%;
+        font-weight: bold;
+        padding: 3px 3% 3px 3%;
+    
     }
     
-    #section_Contact {
-        margin-bottom: 3%;
-    }
-
-    #legend_About_ME {
-        font-size: 125%;
-        font-weight: bold;
-        text-align: left;
-        padding: 0% 2% 0% 2%;
-    }
-
-    #legend_Skill {
-        font-size: 125%;
-        font-weight: bold;
-        text-align: right;
-        padding: 0% 2% 0% 2%;
-        
-    }
-
-    #legend_Skill_ass {
+    #legend_center {
         font-size: 100%;
         font-weight: bold;
-        padding: 0% 2% 0% 2%;
+        padding: 3px 3% 3px 3%;
         
     }
-
-    #div_Skill_ass {
-        font-size: 75%;
-    }
-
-    #legend_Skill_project {
+    
+    #legend_right {
         font-size: 100%;
         font-weight: bold;
-        padding: 0% 2% 0% 2%;
+        padding: 3px 3% 3px 3%;
         
     }
 
-    #div_Skill_project {
-        font-size: 75%;
-    }
-
-    #legend_Contact {
-        font-size: 125%;
-        font-weight: bold;
+    #div_Hobbies {
+        /* display: grid; */
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
         text-align: left;
-        padding: 0% 2% 0% 2%;
+        font-size: 70%;
+
     }
 }
