@@ -26,6 +26,7 @@ html {
 body {
     background-color: black;
     background-image: url('img/Background.jpg');
+    
 }
 
 hr {
@@ -35,7 +36,7 @@ hr {
 
 iframe {
     width: 95%;
-    height: 400px;
+    height: 600px;
     margin: 16px 16px 0px 16px;
     
     border-radius: 10px;
@@ -233,7 +234,6 @@ fieldset {
 .Tab {
     margin: 3% 3% 3% 3%;
     overflow: hidden;
-    /* border: 1px solid #ccc; */
     background-color: transparent;
 }
 
@@ -272,7 +272,7 @@ fieldset {
     display: none;
 }
 
-#legend_Model {
+/* #legend_Model {
     font-size: 200%;
     font-weight: bold;
     text-align: left;
@@ -286,7 +286,7 @@ fieldset {
     text-align: left;
     padding: 7px 3% 7px 3%;
     
-}
+} */
 
 .grid-container {
     display: grid;
@@ -366,7 +366,7 @@ fieldset {
 }
 
 .mn4 {
-    grid-column: 10 / span 15;
+    grid-column: 10 / span 16;
     width: 100%;
     height: auto;
     border-radius: 20px;
@@ -450,6 +450,13 @@ a:hover{
 /* Responsive */
 
 @media only screen and (max-width: 1350px){
+    iframe {
+        width: 95%;
+        height: 500px;
+        margin: 8px 8px 0px 8px;
+
+    }
+    
     .header {
         font-size: 100%;
     }
@@ -499,10 +506,56 @@ a:hover{
         font-size: 100%;
         font-weight: bold; 
     }
+
+    .Tab button {
+        font-size: 160%;
+        border-left: 0px dashed rgb(255, 255, 255);
+        padding: 14px 16px;
+        
+
+    }
+
+    .TextInfo {
+        font-size: 130%;
+        padding: 16px;
+    
+    }
+    
+    .TextInfo2 {
+        font-size: 100%;
+        padding: 24px;
+    
+    }
+    
+    .TextInfo3 {
+        font-size: 100%;
+        padding: 24px;
+    
+    }
+
+    .mn1 {
+        grid-column: 2 / span 12;
+        width: 100%;
+        border-radius: 20px;
+        
+    }
+    
+    .mn2 {
+        grid-column: 15 / span 12;
+        width: 100%;
+        border-radius: 20px;
+    }
     
 }
 
 @media only screen and (max-width: 1200px){
+    iframe {
+        width: 95%;
+        height: 450px;
+        margin: 8px 8px 0px 8px;
+        
+    }
+
     .header {
         font-size: 90%;
     }
@@ -588,10 +641,43 @@ a:hover{
         font-size: 90%;
         font-weight: bold; 
     }
+
+    .Tab button {
+        font-size: 130%;
+        border-left: 0px dashed rgb(255, 255, 255);
+        padding: 14px 16px;
+        
+
+    }
+
+    .TextInfo {
+        font-size: 110%;
+        padding: 16px;
+    
+    }
+    
+    .TextInfo2 {
+        font-size: 80%;
+        padding: 24px;
+    
+    }
+    
+    .TextInfo3 {
+        font-size: 80%;
+        padding: 24px;
+    
+    }
     
 }
 
 @media only screen and (max-width: 1050px){
+    iframe {
+        width: 95%;
+        height: 400px;
+        margin: 8px 8px 0px 8px;
+        
+    }
+
     #div_Skill {
         padding: 14px;
         border-radius: 14px;
@@ -605,10 +691,64 @@ a:hover{
         margin: 5px;
         border-radius: 12px;
     }
+
+    .grid-container {
+        grid-gap: 8px;
+    }
     
+    .mini-container {
+        grid-gap: 8px;
+        
+    }
+
+    .TextInfo2 {
+        font-size: 80%;
+        text-align: center;
+        padding: 16px 8px 0px 8px;
+    
+    }
+
+    .TextInfo3 {
+        font-size: 80%;
+        padding: 0px 8px 16px 8px;
+    
+    }
+
+    .mn1 {
+        grid-column: 2 / span 25;
+        width: 100%;
+        border-radius: 20px;
+        
+    }
+    
+    .mn2 {
+        grid-column: 2 / span 25;
+        width: 100%;
+        border-radius: 20px;
+    }
+    
+    .mn3 {
+        grid-column: 3 / span 23;
+        width: 100%;
+        border-radius: 20px;
+    
+    }
+    
+    .mn4 {
+        grid-column: 3 / span 23;
+        width: 100%;
+        border-radius: 20px;
+    }
 }
 
 @media only screen and (max-width: 850px){
+    iframe {
+        width: 95%;
+        height: 300px;
+        margin: 8px 8px 0px 8px;
+        
+    }
+
     .header {
         font-size: 80%;
     }
@@ -671,6 +811,13 @@ a:hover{
         
     }
 
+    /* #legend_Model {
+        font-size: 120%;
+        font-weight: bold;
+        padding: 5px 3% 5px 3%;
+        
+    } */
+
     #div_Hobbies {
         font-size: 75%;
         grid-template-columns: 25% 25% 25% 25%;
@@ -680,10 +827,25 @@ a:hover{
         font-size: 80%;
         font-weight: bold; 
     }
+
+    .Tab button {
+        font-size: 100%;
+        border-left: 0px dashed rgb(255, 255, 255);
+        padding: 14px 16px;
+        
+
+    }
     
 }
 
 @media only screen and (max-width: 800px){
+    iframe {
+        width: 95%;
+        height: 250px;
+        margin: 8px 8px 0px 8px;
+        
+    }
+
     #div_Skill {
         padding: 10px;
         border-radius: 10px;
@@ -701,6 +863,13 @@ a:hover{
 }
 
 @media only screen and (max-width: 750px){
+    iframe {
+        width: 95%;
+        height: 200px;
+        margin: 0px;
+        
+    }
+
     .header {
         font-size: 65%;
     }
@@ -710,9 +879,9 @@ a:hover{
         margin-right: 10%;
     }
 
-    .button_header {
+    /* .button_header {
         font-size: 90%;
-    }
+    } */
 
 
     .About_Me {
@@ -774,4 +943,13 @@ a:hover{
         font-size: 65%;
         font-weight: bold; 
     }
+
+    .Tab button {
+        font-size: 80%;
+        border-left: 0px dashed rgb(255, 255, 255);
+        padding: 14px 16px;
+        
+
+    }
+
 }
