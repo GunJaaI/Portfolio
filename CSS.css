@@ -494,6 +494,11 @@ a:hover{
         font-size: 90%;
         grid-template-columns: 25% 25% 25% 25%;
     }
+
+    #footer_Name {
+        font-size: 100%;
+        font-weight: bold; 
+    }
     
 }
 
@@ -508,7 +513,7 @@ a:hover{
     }
 
     .button_header {
-        font-size: 85%;
+        font-size: 90%;
         padding: 8px 8px;
     }
 
@@ -578,6 +583,11 @@ a:hover{
         font-size: 80%;
         grid-template-columns: 25% 25% 25% 25%;
     }
+
+    #footer_Name {
+        font-size: 90%;
+        font-weight: bold; 
+    }
     
 }
 
@@ -609,7 +619,7 @@ a:hover{
     }
 
     .button_header {
-        font-size: 75%;
+        font-size: 90%;
         padding: 4px 4px;
     }
 
@@ -665,6 +675,11 @@ a:hover{
         font-size: 75%;
         grid-template-columns: 25% 25% 25% 25%;
     }
+
+    #footer_Name {
+        font-size: 80%;
+        font-weight: bold; 
+    }
     
 }
 
@@ -691,12 +706,12 @@ a:hover{
     }
 
     .header_Right {
-        font-size: 65%;
+        font-size: 70%;
         margin-right: 10%;
     }
 
     .button_header {
-        font-size: 65%;
+        font-size: 90%;
     }
 
 
@@ -753,5 +768,10 @@ a:hover{
         text-align: left;
         font-size: 70%;
 
+    }
+
+    #footer_Name {
+        font-size: 65%;
+        font-weight: bold; 
     }
 }
