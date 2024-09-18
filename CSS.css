@@ -214,6 +214,10 @@ fieldset {
     border-radius: 12px;
 }
 
+#fieldset_Hob {
+    margin: 3% 0% 3% 0%;
+}
+
 #div_Hobbies {
     font-size: 120%;
 
