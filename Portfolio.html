@@ -16,22 +16,22 @@
 </head>
 <body>
     <header>
-        <div class="header">
-            <div class="header_Left">
-                <a href="./index.html"> <button class="button_header"> Back </button></a>
+        <div class="bg-white grid grid-cols-5 gap-4 h-20">
+            <div class="col-start-1 grid grid-cols-2 gap-16 justify-center m-auto">
+                <a href="./index.html" class="hover:text-black hover:font-bold hover:cursor-pointer justify-center m-auto"> <button > Back </button></a>
             </div>
-            <div class="header_Center">
-                <p id="header_Name"> Songtham Siri </p>
+            <div class="col-start-3 justify-center m-auto text-2xl font-bold">
+                <p class="font"> Songtham Siri </p>
             </div>
-            <div class="header_Right">
-                <p style="font-weight: bold;"> Portfolio </p>
-                <a href="Resume.html"> <button class="button_header"> Resume </button></a>
+            <div class="col-start-5 grid grid-cols-2 gap-8 justify-center right-full m-auto">
+                <p class="hover:text-black hover:font-bold hover:cursor-pointer justify-center m-auto"> Portfolio </p>
+                <a href="Resume.html" class="hover:text-black hover:font-bold hover:cursor-pointer justify-center m-auto"> <button > Resume </button></a>
             </div>
         </div>
     </header>
     
     <div class="Tab">
-        <button class="tablinks active" onclick="TabOpen(event, '3D-Model')"> 3D-Model </button>
+        <button class="tablinks active" onclick="TabOpen(event, '3D-Model')" id="DefaultTab"> 3D-Model </button>
         <button class="tablinks" onclick="TabOpen(event, '3D-Animation')"> 3D-Animation </button>
         <!-- <button class="tablinks" onclick="TabOpen(event, '2D-Animation')"> 2D-Animation </button>
         <button class="tablinks" onclick="TabOpen(event, 'Graphic')" id="DefaultTab"> Graphic </button> -->
