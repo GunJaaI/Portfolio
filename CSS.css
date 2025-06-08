@@ -9,14 +9,10 @@
 
 }
 
+@import "tailwindcss";
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: 'disket_monoregular';
-    /* font-family: 'Kanit', sans-serif; */
-    /* font-family: 'Kode Mono', monospace; */
-    /* font-family: 'Chakra Petch', sans-serif; */
 }
 
 html {
@@ -127,7 +123,7 @@ fieldset {
     padding: 3% 3% 3% 3%;
     
     border-radius: 10px;
-    border: 5px dashed rgb(255, 255, 255);
+    border: 5px dashed rgb(54, 54, 54);
     backdrop-filter: blur(6px);
 
     text-align: center;
@@ -300,7 +296,7 @@ fieldset {
 
 .mini-container {
     display: grid;
-    grid-template-columns: repeat(27, 1fr);
+    grid-template-columns: repeat(26, 1fr);
     grid-gap: 16px;
     
 }
@@ -310,7 +306,6 @@ fieldset {
 }
 
 .box {
-    margin: auto;
     background: rgb(255, 255, 255);
     box-shadow: 0 8px 32px 0 rgb(59, 59, 59);
     backdrop-filter: blur(6.5px);
@@ -325,7 +320,6 @@ fieldset {
     grid-column: 1 / span 20;
     width: 100%;
     height: auto;
-    /* width: auto; */
     background-color: rgba(0, 0, 0, 0.5);
     
 }
@@ -344,6 +338,7 @@ fieldset {
 
 .mn1 {
     grid-column: 2 / span 12;
+    display: flex;
     width: 100%;
     height: auto;
     border-radius: 20px;

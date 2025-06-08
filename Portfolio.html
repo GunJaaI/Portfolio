@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet"> -->
 
     <script src='index.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
 
     <title> Portfolio </title>
 </head>
@@ -29,10 +31,10 @@
     </header>
     
     <div class="Tab">
-        <button class="tablinks" onclick="TabOpen(event, '3D-Model')"> 3D-Model </button>
+        <button class="tablinks active" onclick="TabOpen(event, '3D-Model')"> 3D-Model </button>
         <button class="tablinks" onclick="TabOpen(event, '3D-Animation')"> 3D-Animation </button>
-        <button class="tablinks" onclick="TabOpen(event, '2D-Animation')"> 2D-Animation </button>
-        <button class="tablinks active" onclick="TabOpen(event, 'Graphic')" id="DefaultTab"> Graphic </button>
+        <!-- <button class="tablinks" onclick="TabOpen(event, '2D-Animation')"> 2D-Animation </button>
+        <button class="tablinks" onclick="TabOpen(event, 'Graphic')" id="DefaultTab"> Graphic </button> -->
     </div>
 
     <section id="section"></section>
@@ -42,7 +44,7 @@
             <div class="grid-container">
                 <div class="fullcon1 box center">
                     <div class="TextInfo"> 3D-Model : Isometric </div>
-                    <div class="mini-container">
+                    <div>
                         <div class="sketchfab-embed-wrapper fullmn">
                             <iframe title="Isometric Cafeteria" class=""
                                     frameborder="0" 
@@ -58,19 +60,21 @@
                             </p>
                         </div>
 
-                        <div class="mn1">
-                            <img src="img/Port/Shop01_Render.jpg" class="img_port" alt=""/>       
-                            <!-- <p style="font-size: 16px; font-weight: normal; margin: 20px; color: #ffffff;"> 
-                                Render
-                            </p>  -->
+                        <div class="bg-red-500 grid grid-cols-2 gap-4">
+                            <div class="col-span-1 rounded-lg mx-4">
+                                <img src="img/Port/Shop01_Render.jpg"  alt=""/>
+                            </div>
+                            <div class="col-span-1 rounded-lg mx-4">
+                                <img src="img/Port/Shop01_Wireframe.jpg" alt=""/>
+                            </div>
                         </div>
 
-                        <div class="mn2">
+                        <!-- <div class="mn2">
                             <img src="img/Port/Shop01_Wireframe.jpg" class="img_port" alt=""/>       
-                            <!-- <p style="font-size: 16px; font-weight: normal; margin: 20px; color: #ffffff;"> 
+                            <p style="font-size: 16px; font-weight: normal; margin: 20px; color: #ffffff;"> 
                                 Wireframe
-                            </p>  -->
-                        </div>
+                            </p> 
+                        </div> -->
 
                         <div class="mn1">
                             <img src="img/Port/Shop02_Render.jpg" class="img_port" alt=""/>       
